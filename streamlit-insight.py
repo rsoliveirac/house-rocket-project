@@ -2,19 +2,8 @@ import streamlit as st
 import pandas as pd
 import folium
 import numpy as np
-import matplotlib.pyplot as plt
 from streamlit_folium import folium_static
-from folium.plugins import MarkerCluster
-from matplotlib import pyplot as plt
-from matplotlib import gridspec
-from matplotlib import gridspec
-from datetime import datetime
-from ipywidgets import fixed
-
-import matplotlib.ticker as mtick
-import ipywidgets as widgets
 import plotly.express as px
-import seaborn as sns
 
 
 st.set_page_config( layout = 'wide')
