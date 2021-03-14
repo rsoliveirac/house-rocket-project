@@ -14,7 +14,7 @@ def get_data(path):
 
     return df
 
-path = '../kc_house_data.csv'
+path = 'https://github.com/rsoliveirac/projeto-insights-houses/blob/3f373d0008d7d173009a4c769bdb5fd7252dd4cb/kc_house_data.csv'
 df = get_data(path)
 
 #=========================================
