@@ -14,7 +14,7 @@ def get_data(path):
 
     return df
 
-path = '/home/user/repos/projeto-insight/kc_house_data.csv'
+path = 'projeto-insight/kc_house_data.csv'
 df = get_data(path)
 
 #=========================================
