@@ -4,7 +4,7 @@
 
 Este é um projeto fictício. A empresa, o contexto e as perguntas de negócios não são reais. Este portfólio está seguindo as recomendações do blog [Seja um Data Scientist](https://sejaumdatascientist.com/os-5-projetos-de-data-science-que-fara-o-recrutador-olhar-para-voce/) 
 
-# Descrição 
+# 1 Descrição 
 *House Rocket* é uma empresa que trabalha com a compra e venda de imóveis. O Cientista de dados da empresa deverá ajudar a encontrar as melhores oportunidades de negócio, ou seja, maximizar a receita. A melhor estratégia é a compra de casas em ótimas condições por baixos preços e a venda desses imóveis por um preço superior. Os atributos das casas as tornam mais ou menos atrativas, influenciando a atratividade dos imóveis e, consequentemente, o seu preço. As questões a serem respondidas são:
 
 **1**. Quais casas o CEO da House Rocket deveria comprar e por qual preço de compra?
@@ -14,7 +14,7 @@ Este é um projeto fictício. A empresa, o contexto e as perguntas de negócios 
 **3.** A House Rocket deveria fazer uma reforma para aumentar o preço da venda? Quais seriam as sugestões de mudanças? Qual o incremento no preço dado por cada opção de reforma? 
 
 
-# Atributos 
+# 2. Atributos 
 
 Os dados para este projeto podem ser encontrados em: https://www.kaggle.com/harlfoxem/housesalesprediction/discussion/207885 . Abaixo segue a definição para cada um dos 21 atributos:
 
@@ -44,7 +44,7 @@ Os dados para este projeto podem ser encontrados em: https://www.kaggle.com/harl
 
 
 
-# 2. Premissas do Negócio
+# 3. Premissas do Negócio
 
 - As seguintes premissas foram consideradas para esse projeto:
 - Os valores iguais a zero em **yr_renovated** são casas que nunca foram reformadas.
@@ -54,11 +54,11 @@ Os dados para este projeto podem ser encontrados em: https://www.kaggle.com/harl
 
 
 
-# 3. Estratégia de solução
+# 4. Estratégia de solução
 
 
 
-# 4. Top Insights
+# 5. Top Insights
 
 Imóveis renovados recentemente são 35% mais caros
 
@@ -74,7 +74,7 @@ Falso: O preço dos imóveis são mais caros entre o mês 3 e 6.
 
 
 
-# 5. Tradução para o negócio
+# 6. Tradução para o negócio
 
 O as análises das hipóteses dizem sobre o negócio
 
