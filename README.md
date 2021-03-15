@@ -1,17 +1,20 @@
 # House Rocket Project 
-<img src = "https://cdn.pixabay.com/photo/2015/03/26/10/04/new-york-690868_960_720.jpg" height = "350" width="800">
 
+![logo_size](https://user-images.githubusercontent.com/71949871/111180409-c7904000-858b-11eb-89b2-047a98c2d779.jpg)
 
 Este é um projeto fictício. A empresa, o contexto e as perguntas de negócios não são reais. Este portfólio está seguindo as recomendações do blog [Seja um Data Scientist](https://sejaumdatascientist.com/os-5-projetos-de-data-science-que-fara-o-recrutador-olhar-para-voce/) 
 
-# 1 Descrição 
+​																																								*A logo criada é ficticia.* 
+
+# 1. Descrição 
+
 *House Rocket* é uma empresa que trabalha com a compra e venda de imóveis. O Cientista de dados da empresa deverá ajudar a encontrar as melhores oportunidades de negócio, ou seja, maximizar a receita. A melhor estratégia é a compra de casas em ótimas condições por baixos preços e a venda desses imóveis por um preço superior. Os atributos das casas as tornam mais ou menos atrativas, influenciando a atratividade dos imóveis e, consequentemente, o seu preço. As questões a serem respondidas são:
 
 **1**. Quais casas o CEO da House Rocket deveria comprar e por qual preço de compra?
 
 **2.** Uma vez a casa em posse da empresa, qual o melhor momento para vendê-las e qual seria o preço da venda?
 
-**3.** A House Rocket deveria fazer uma reforma para aumentar o preço da venda? Quais seriam as sugestões de mudanças? Qual o incremento no preço dado por cada opção de reforma? 
+ 
 
 
 # 2. Atributos 
@@ -46,31 +49,53 @@ Os dados para este projeto podem ser encontrados em: https://www.kaggle.com/harl
 
 # 3. Premissas do Negócio
 
+Quais premissas foram adotadas para este projeto:
+
 - As seguintes premissas foram consideradas para esse projeto:
 - Os valores iguais a zero em **yr_renovated** são casas que nunca foram reformadas.
 - O valor igual a 33 na coluna **bathroom** foi considerada um erro e por isso foi delatada das análises
 - A coluna **price** significa o preço que a casa foi / será comprada pela empresa House Rocket
 - Valores duplicados em ID foram removidos e considerados somente a compra mais recente
+- A localidade e a condição do imóvel foram características decisivas na compra ou não do imóvel
+- A estação do ano foi a característica decisiva para a época da venda do imóvel
 
 
 
 # 4. Estratégia de solução
 
+Quais foram as etapas para solucionar o problema de negócio:
 
+1. Coleta de dados via Kaggle
+2. Entendimento de negócio
+3. Tratamento de dados 
+
+- ​	Tranformação de variaveis 
+- ​	Limpeza 
+- ​	Entendimento
+
+4. Exploração de dados
+
+5. Responder problemas do negócio
+
+6. Resultados para o negócio
+
+7. Conclusão
 
 # 5. Top Insights
 
+Insights mais relevantes para o projeto:
+
 Imóveis renovados recentemente são 35% mais caros
 
-Falso: Imóveis antigos e atuais possuem uma faixa de preço equivalente.
+**Falso**: Imóveis antigos e atuais possuem uma faixa de preço equivalente.
 
 Imóveis em más condições, mas com uma boa vista são 10% mais caros.
 
-Falso: Imóveis em más condições e com vista ruim são mais caros.
+**Falso**: Imóveis em más condições e com vista ruim são mais caros.
 
-Crescimento do preço mês após mês em 2014 é de 10%
+Crescimento do preço mês após mês em 2014 é de 10%.
 
-Falso: O preço dos imóveis são mais caros entre o mês 3 e 6.
+**Falso**: O preço dos imóveis são mais caros entre o mês 3 e 6.
 
 
 
@@ -78,15 +103,32 @@ Falso: O preço dos imóveis são mais caros entre o mês 3 e 6.
 
 O as análises das hipóteses dizem sobre o negócio
 
-| Hipótese | Resultado | Tradução para negócio |
-| -------- | --------- | --------------------- |
-| H1 -     |           |                       |
-|          |           |                       |
-|          |           |                       |
-|          |           |                       |
-|          |           |                       |
-|          |           |                       |
-|          |           |                       |
-|          |           |                       |
-|          |           |                       |
+| Hipótese                                                     | Resultado  | Tradução para negócio                                        |
+| ------------------------------------------------------------ | ---------- | ------------------------------------------------------------ |
+| **H1** -Imóveis com vista para a água são em média 30% mais caros | Verdadeira | Investir em imóveis com vista para água                      |
+| **H2** - Imóveis com data de construção menor que 1955 são em média 50% mais baratos | Falsa      | Investir em imóveis independente da data de construção       |
+| **H3** - Imóveis sem porão com maior área total são 40% mais caros | Verdadeira | Investir em imóveis sem porão                                |
+| **H4** - Imóveis que nunca foram reformados são em média 20% mais baratos | Verdadeira | Investir em imóveis não reformados e reformá-los para venda  |
+| **H5** - Imóveis em más condições, mas com boa vista são 10% mais caros | Falsa      | Não investir em imóveis em más condições                     |
+| **H6** - Imóveis antigos e não renovados são 40% mais baratos | Verdadeira | Investir em imóveis antigos e não renovados e reformalos para venda |
+| **H7** - Imóveis com mais banheiros são em média 5% mais caros | Falsa      | Investir em imóveis de 3-5 banheiros                         |
+| **H8** - Imóveis renovados recentemente são 35% mais caros   | Falsa      | Investir em imóveis independente da reforma                  |
+| **H9** - O crescimento do preço dos imóveis mês após mês no ano de 2014 é de 10% | Falsa      | Investir em imóveis nos meses de menor custo                 |
+| **H10** - Imóveis com 3 banheiros tem um crescimento mês após mês de 15% | Falsa      | Investir em imóveis nos meses de menor custo                 |
+
+O valor total de lucro (preço de compra - preço de venda) dos imóveis é de: **22.623.548,20**
+
+# 7. Conclusão
+
+O objetivo final desse projeto era responder a duas questões principais:
+
+**1**. Quais casas o CEO da House Rocket deveria comprar e por qual preço de compra?
+
+**2.** Uma vez a casa em posse da empresa, qual o melhor momento para vendê-las e qual seria o preço da venda?
+
+Os objetivos foram alcançados.  Os imóveis foram agrupados por região (zipcode). Considerando o preço do imóvel e a condição (1 - 5)  foi calculado a mediana do preço. Imóveis abaixo do preço da mediana e com melhores condições foram sugeridos para compra (Total de 151 imóveis). Os imóveis aptos para compra foram agrupados pela localidade e a estação do ano. A mediana foi calculada e imóveis com preço abaixo da mediana teve um acréscimo de 10% em seu valor, enquanto imóveis com preço acima da mediana teve um acréscimo de 30% acima do seu valor.  O melhor momento da venda dos imóveis é na primavera, uma vez que o preço é maior nessa época. 
+
+Como próximo passo, seria interessante a análise de quais apartamentos deveriam sofrer reformas, uma vez que imóveis antigos e não reformados são mais baratos, enquanto imóveis renovados recentemente são mais caros.  Também é de interesse prever a valorização do imóvel, pois pode permitir reter a venda da habitação até esta estar mais valorizada no mercado. 
+
+
 
