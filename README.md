@@ -76,6 +76,8 @@ Quais foram as etapas para solucionar o problema de negócio:
 4. Exploração de dados
 
 [link para app no Heroku](https://house-rocket-project.herokuapp.com/)
+
+
 5. Responder problemas do negócio
 
 6. Resultados para o negócio
