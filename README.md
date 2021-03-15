@@ -74,7 +74,7 @@ Quais foram as etapas para solucionar o problema de negócio:
 - ​	Entendimento
 
 4. Exploração de dados
-
+[link para app no Heroku](https://house-rocket-project.herokuapp.com/)
 5. Responder problemas do negócio
 
 6. Resultados para o negócio
@@ -117,6 +117,8 @@ O as análises das hipóteses dizem sobre o negócio
 | **H10** - Imóveis com 3 banheiros tem um crescimento mês após mês de 15% | Falsa      | Investir em imóveis nos meses de menor custo                 |
 
 O valor total de lucro (preço de compra - preço de venda) dos imóveis é de: **22.623.548,20**
+
+
 
 # 7. Conclusão
 
