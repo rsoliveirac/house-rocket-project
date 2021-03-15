@@ -1,6 +1,6 @@
 # House Rocket Project 
 
-                            ![logo_size](https://user-images.githubusercontent.com/71949871/111180409-c7904000-858b-11eb-89b2-047a98c2d779.jpg)
+<img src="https://user-images.githubusercontent.com/71949871/111184181-78e4a500-858f-11eb-9ed8-9888964ed06d.png" alt="logo" style="zoom:100%;" />
 
 Este é um projeto fictício. A empresa, o contexto e as perguntas de negócios não são reais. Este portfólio está seguindo as recomendações do blog [Seja um Data Scientist](https://sejaumdatascientist.com/os-5-projetos-de-data-science-que-fara-o-recrutador-olhar-para-voce/) 
 
