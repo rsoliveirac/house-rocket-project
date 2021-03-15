@@ -1,4 +1,4 @@
-# projeto-insights-houses
+# House Rocket Project 
 <img src = "https://cdn.pixabay.com/photo/2015/03/26/10/04/new-york-690868_960_720.jpg" height = "350" width="800">
 
 
@@ -16,46 +16,77 @@ Este é um projeto fictício. A empresa, o contexto e as perguntas de negócios 
 
 # Atributos 
 
-Os dados para este projeto podem ser encontrados em: https://www.kaggle.com/harlfoxem/housesalesprediction/discussion/207885 . Abaixo segue a definição para cada um dos 21 atibutos:
+Os dados para este projeto podem ser encontrados em: https://www.kaggle.com/harlfoxem/housesalesprediction/discussion/207885 . Abaixo segue a definição para cada um dos 21 atributos:
 
-* id - Numeração única que identifica cada um dos imóveis 
 
-* date - Data da venda da casa
+|    Atributos    |                         Significado                          |
+| :-------------: | :----------------------------------------------------------: |
+|       id        |       Numeração única de identificação de cada imóvel        |
+|      date       |                    Data da venda da casa                     |
+|      price      |    Preço que a casa está sendo vendida pelo proprietário     |
+|    bedrooms     |                      Número de quartos                       |
+|    bathrooms    | Número de banheiros (0.5 = banheiro em um quarto, mas sem chuveiro) |
+|   sqft_living   | Medida (em pés quadrado) do espaço interior dos apartamentos |
+|    sqft_lot     |     Medida (em pés quadrado)quadrada do espaço terrestre     |
+|     floors      |                 Número de andares do imóvel                  |
+|   waterfront    | Variável que indica a presença ou não de vista para água (0 = não e 1 = sim) |
+|      view       | Um índice de 0 a 4 que indica a qualidade da vista da propriedade. Varia de 0 a 4, onde: 0 = baixa  4 = alta |
+|    condition    | Um índice de 1 a 5 que indica a condição da casa. Varia de 1 a 5, onde: 1 = baixo \|-\| 5 = alta |
+|      grade      | Um índice de 1 a 13 que indica a construção e o design do edifício. Varia de 1 a 13, onde: 1-3 = baixo, 7 = médio e 11-13 = alta |
+|  sqft_basement  | A metragem quadrada do espaço habitacional interior acima do nível do solo |
+|    yr_built     |               Ano de construção de cada imóvel               |
+|  yr_renovated   |                Ano de reforma de cada imóvel                 |
+|     zipcode     |                         CEP da casa                          |
+|       lat       |                           Latitude                           |
+|      long       |                          Longitude                           |
+| sqft_livining15 | Medida (em pés quadrado) do espaço interno de habitação para os 15 vizinhos mais próximo |
+|   sqft_lot15    | Medida (em pés quadrado) dos lotes de terra dos 15 vizinhos mais próximo |
 
-* price - Preço de venda
 
-* bedrooms - Número de quartos
 
-* bathrooms - Número de banheiros (0.5 = banheiro em um quarto, mas sem chuveiro)
+# 2. Premissas do Negócio
 
-* sqft_living - Medida (em pés quadrado) do espaço interior dos apartamentos
+- As seguintes premissas foram consideradas para esse projeto:
+- Os valores iguais a zero em **yr_renovated** são casas que nunca foram reformadas.
+- O valor igual a 33 na coluna **bathroom** foi considerada um erro e por isso foi delatada das análises
+- A coluna **price** significa o preço que a casa foi / será comprada pela empresa House Rocket
+- Valores duplicados em ID foram removidos e considerados somente a compra mais recente
 
-* sqft_lot - Medida (em pés quadrado)quadrada do espaço terrestre
 
-* floors - Número de andares
 
-* waterfront - Variavél ficticia para saber se há visão para água ou não (0 = não e 1 = sim).
+# 3. Estratégia de solução
 
-* view - Um índice de 0 a 4 que indica a qualidade da vista da propriedade (0 = baixa |-| 4 = alta)
 
-* condition - Um indice de 1 a 5 que indica a condição da casa (1 = baixo |-| 5 = alta)
 
-* grade - Um índice de 1 a 1 que indica a construção e o design do edifício, (1-3 =  baixo, 7 = médio e 11-13 = alta)
+# 4. Top Insights
 
-* sqft_above - A metragem quadrada do espaço habitacional interior acima do nível do solo
+Imóveis renovados recentemente são 35% mais caros
 
-* sqft_basement - A metragem quadrada do espaço interno da habitação que está abaixo do nível do solo 45
+Falso: Imóveis antigos e atuais possuem uma faixa de preço equivalente.
 
-* yr_built - Ano de construção de cada casa
+Imóveis em más condições, mas com uma boa vista são 10% mais caros.
 
-* yr_renovated - Ano da última reforma da casa
+Falso: Imóveis em más condições e com vista ruim são mais caros.
 
-* zipcode - CEP da casa
+Crescimento do preço mês após mês em 2014 é de 10%
 
-* lat -  Latitude
+Falso: O preço dos imóveis são mais caros entre o mês 3 e 6.
 
-* long - Longitude
 
-* sqft_living15 - Medida (em pés quadrado) do espaço interno de habitação para os 15 vizinhos mais próximos
 
-* sqft_lot15 - Medida (em pés quadrado) dos lotes de terra dos 15 vizinhos mais próximos
+# 5. Tradução para o negócio
+
+O as análises das hipóteses dizem sobre o negócio
+
+| Hipótese | Resultado | Tradução para negócio |
+| -------- | --------- | --------------------- |
+| H1 -     |           |                       |
+|          |           |                       |
+|          |           |                       |
+|          |           |                       |
+|          |           |                       |
+|          |           |                       |
+|          |           |                       |
+|          |           |                       |
+|          |           |                       |
+
