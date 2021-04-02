@@ -7,7 +7,7 @@ Este é um projeto fictício. A empresa, o contexto e as perguntas de negócios 
 ​						                                  																																		*A logo criada é ficticia.* 
 
  
-**:trophy: ​A [Aplicação](https://house-rocket-project.herokuapp.com/) desse projeto foi selecionado pela comunidade Streamlit como uma das 4 melhores aplicações na categoria finanças e negócios na [*Weekly Roundup*]([ Weekly Roundup: Custom theming, March madness, recap videos and more! - Show the Community! - Streamlit](https://discuss.streamlit.io/t/weekly-roundup-custom-theming-march-madness-recap-videos-and-more/11167)) ! :trophy:**
+**:trophy: ​A [Aplicação](https://house-rocket-project.herokuapp.com/) desse projeto foi selecionado pela comunidade Streamlit como uma das 4 melhores aplicações na categoria finanças e negócios na [Weekly Roundup](https://discuss.streamlit.io/t/weekly-roundup-custom-theming-march-madness-recap-videos-and-more/11167) ! :trophy:**
 
 
 
@@ -124,7 +124,7 @@ O as análises das hipóteses dizem sobre o negócio
 | **H9** - O crescimento do preço dos imóveis mês após mês no ano de 2014 é de 10% | Falsa      | Investir em imóveis nos meses de menor custo                 |
 | **H10** - Imóveis com 3 banheiros tem um crescimento mês após mês de 15% | Falsa      | Investir em imóveis nos meses de menor custo                 |
 
-O valor total de lucro (preço de compra - preço de venda) dos imóveis é de: **22.623.548,20**
+O valor total de lucro (lucro = preço de compra - preço de venda) dos imóveis é de: **22.623.548,20**
 
 
 
