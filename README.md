@@ -4,7 +4,12 @@
 
 Este é um projeto fictício. A empresa, o contexto e as perguntas de negócios não são reais. Este portfólio está seguindo as recomendações do blog [Seja um Data Scientist](https://sejaumdatascientist.com/os-5-projetos-de-data-science-que-fara-o-recrutador-olhar-para-voce/) 
 
-​																																								*A logo criada é ficticia.* 
+​						                                  																																		*A logo criada é ficticia.* 
+
+ 
+**:trophy: ​A [Aplicação](https://house-rocket-project.herokuapp.com/) desse projeto foi selecionado pela comunidade Streamlit como uma das 4 melhores aplicações na categoria finanças e negócios na [*Weekly Roundup*]([ Weekly Roundup: Custom theming, March madness, recap videos and more! - Show the Community! - Streamlit](https://discuss.streamlit.io/t/weekly-roundup-custom-theming-march-madness-recap-videos-and-more/11167)) ! :trophy:**
+
+
 
 # 1. Descrição 
 
